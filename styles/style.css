@@ -1,5 +1,4 @@
 .page {
-  /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
@@ -20,7 +19,6 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -31,7 +29,6 @@
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   margin: 8px 0 0;
   display: flex;
   column-gap: 20px;
@@ -46,7 +43,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -115,7 +111,6 @@
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0 auto;
@@ -228,63 +223,73 @@
 }
 
 .events__cover {
-  /* flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative; */
+  position: relative;
 }
 
 .events__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person {
-  /* position: absolute;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px; */
+  gap: 10px;
 }
 
 .person_name_feynman {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: 0px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  left: 142px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  /* width: 140px; */
+  width: 140px;
 }
 
 .person__image_size_m {
-  /* width: 100px; */
+  width: 100px;
 }
 
 .person__image_size_s {
-  /* width: 80px; */
+  width: 80px;
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0;
 }
