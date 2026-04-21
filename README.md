@@ -1,6 +1,6 @@
 # Biblioteca Triple Peaks
  
-A responsive landing page for the Triple Peaks Library, a TriplrTen project of a fictional library aimed at developers and students looking for a place to study, grow, and connect.
+A responsive landing page for the Triple Peaks Library, a TripleTen project of a fictional library aimed at developers and students looking for a place to study, grow, and connect.
  
 ## Problem it Solves
  
